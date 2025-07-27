@@ -16,8 +16,8 @@ Fundamental limitations to be aware of and work around.
 ### [💡 Tips & Tricks](04-tips-and-tricks.md)
 Practical techniques for maximizing LLM effectiveness.
 
-### [🔧 Tooling & Workflows](05-tooling-and-workflows.md)
-Tools and processes that enhance LLM integration.
+### [🔧 Workflows](05-workflows.md)
+Proven workflow patterns and integration approaches.
 
 ### [⚠️ Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md)
 Common mistakes and hard-won insights.
