@@ -10,27 +10,28 @@
 
 ---
 
-## Code Analysis & Review
-**Context:** Daily development workflows
+## Code Analysis & Review (Simple Cases)
+**Context:** Daily development workflows for straightforward issues
 
-**Experience:** LLMs excel at:
-- Spotting potential bugs and edge cases
-- Suggesting code improvements and refactoring opportunities
-- Explaining complex code logic
-- Identifying security vulnerabilities in code snippets
+**Experience:** LLMs work well for:
+- Spotting obvious bugs and simple edge cases
+- Basic code improvements and style suggestions
+- Explaining what code does (ad-hoc explanations)
+- Identifying common security patterns (SQL injection, XSS basics)
 
-**Learnings:** Works best with well-structured code and clear context about the intended functionality.
+**Learnings:** Works best with simple, isolated code snippets. Complex architectural issues, subtle race conditions, or business-logic problems often require human expertise.
 
-## Documentation Generation
-**Context:** Technical documentation creation
+## Translation & Localization
+**Context:** Converting content between languages
 
 **Experience:** Highly effective for:
-- Converting code comments into structured documentation
-- Creating API documentation from code signatures
-- Generating user guides from technical specifications
-- Writing README files and setup instructions
+- Technical documentation translation
+- User interface text and error messages
+- Code comments and README files
+- API documentation in multiple languages
+- Marketing copy and user-facing content
 
-**Learnings:** Provide clear templates and examples for consistent output quality.
+**Learnings:** Provide context about target audience and technical domain. Review for cultural appropriateness and technical accuracy.
 
 ## Learning & Explanation
 **Context:** Understanding new technologies or concepts
@@ -40,6 +41,7 @@
 - Providing step-by-step tutorials
 - Explaining error messages and debugging steps
 - Creating analogies and examples for difficult topics
+- Ad-hoc code explanations ("What does this function do?")
 
 **Learnings:** Best when you can iteratively refine the explanation depth and style.
 
@@ -51,8 +53,21 @@
 - Generating configuration files (Docker, CI/CD, etc.)
 - Building form templates and UI components
 - Creating test frameworks and example data
+- Standard document templates (meeting notes, reports)
 
 **Learnings:** Specify your tech stack and constraints clearly for better results.
+
+## Text Processing & Analysis
+**Context:** Working with large amounts of text content
+
+**Experience:** Strong capabilities for:
+- Summarizing long documents and articles
+- Extracting key information from unstructured text
+- Converting between formats (Markdown, HTML, plain text)
+- Proofreading and grammar checking
+- Content classification and tagging
+
+**Learnings:** Works best when you provide clear criteria for what constitutes important information.
 
 ---
 
