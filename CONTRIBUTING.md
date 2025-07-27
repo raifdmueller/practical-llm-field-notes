@@ -10,6 +10,15 @@ Thank you for contributing your real-world LLM experiences! Your practical insig
 - Key learnings others can apply
 - Concrete examples rather than theory
 
+## 💬 Before You Contribute
+
+**Not sure where to start? Have questions?** Join our [Discussions](../../discussions)!
+
+- **💡 [Ideas](../../discussions/categories/ideas)** - Brainstorm new content or improvements
+- **❓ [Q&A](../../discussions/categories/q-a)** - Ask questions about LLM experiences
+- **📝 [Contribution Help](../../discussions/categories/contribution-help)** - Get help structuring your contribution
+- **🎯 [Show and Tell](../../discussions/categories/show-and-tell)** - Share experiences informally
+
 ## 📝 Quick Start
 
 ### 1. Choose Your Section
@@ -59,14 +68,16 @@ Thank you for contributing your real-world LLM experiences! Your practical insig
 - **Generalize:** "E-commerce platform" not "Company XYZ's Shopify store"
 - **Focus on technique:** The approach matters more than specifics
 
-## ❓ Questions?
+## ❓ Need Help?
 
-- **Unsure which section?** Open an issue to discuss
-- **Privacy concerns?** Ask before submitting
-- **Need feedback?** Create a draft PR
+**Multiple ways to get support:**
+
+- **🗣️ [Start a Discussion](../../discussions)** - For questions, ideas, or informal sharing
+- **📋 [Open an Issue](../../issues)** - For specific problems or formal proposals
+- **📝 [Draft Pull Request](../../pulls)** - For feedback on work-in-progress
 
 ---
 
 **Recognition:** All contributors are acknowledged. Anonymous contributions welcome.
 
-**Simple rule:** Be respectful, focus on helping others learn from your experience.
+**Community:** Be respectful, focus on helping others learn from your experience.
