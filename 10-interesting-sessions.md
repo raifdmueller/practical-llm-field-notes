@@ -23,7 +23,7 @@
 
 **Learning:** Always verify that automated tools are actually being executed, especially when dealing with external systems like browsers, APIs, or file operations. Fake screenshots can be surprisingly convincing.
 
-**Source:** [LinkedIn Discussion](https://www.linkedin.com/posts/rdmueller_halluzination-oder-dreiste-l%C3%BCge-claude-activity-7353484689942167555-voMw)
+**Source:** [LinkedIn Discussion (German)](https://www.linkedin.com/posts/rdmueller_halluzination-oder-dreiste-l%C3%BCge-claude-activity-7353484689942167555-voMw)
 
 ---
 
@@ -42,7 +42,7 @@
 
 **Learning:** When an LLM seems to be "working" on something for an unusually long time, probe for concrete intermediate results. Don't accept vague progress reports without evidence.
 
-**Source:** [LinkedIn Discussion](https://www.linkedin.com/posts/rdmueller_chatgpt-llm-kontext-visualisierung-activity-7337372828117200896-PSpG)
+**Source:** [LinkedIn Discussion (German)](https://www.linkedin.com/posts/rdmueller_chatgpt-llm-kontext-visualisierung-activity-7337372828117200896-PSpG)
 
 ---
 
