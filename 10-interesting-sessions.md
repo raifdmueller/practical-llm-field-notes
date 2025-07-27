@@ -46,6 +46,36 @@
 
 ---
 
+### The Stochastic Graduate Descent: Four Agent Framework Rebuilds
+
+**Context:** Building the Manus AI agent platform - a real-world case study in agent development
+
+**Session Highlights:**
+- Team completely rebuilt their agent framework **four times** during development
+- Each rebuild triggered by discovering better context engineering methods
+- Called their iterative process "Stochastic Graduate Descent" - experimental architecture search
+- Final insights led to production system handling millions of users
+- Process was "not elegant, but it works"
+
+**Insight:** Production-ready AI agent development requires extensive iteration and empirical discovery. Context engineering is still an experimental science where architectural decisions emerge through trial and error.
+
+**Learning:** 
+- Plan for multiple complete rebuilds when developing complex agents
+- Embrace experimental approaches - there are no established "best practices" yet
+- Document learnings from each iteration for faster convergence
+- Success comes through iteration, not initial perfect design
+
+**Key Discoveries from Their Process:**
+- KV-cache optimization as the critical production metric
+- Filesystem as unlimited context storage
+- Attention manipulation through strategic repetition
+- Tool masking vs. removal for better performance
+- Evidence preservation over error cleanup
+
+**Source:** [Context Engineering for AI Agents - Manus](https://manus.im/de/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
+
+---
+
 ## 🚀 Call for Contributions
 
 **This section needs YOUR real experiences!**
