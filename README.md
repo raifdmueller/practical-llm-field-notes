@@ -22,8 +22,8 @@ Proven workflow patterns and integration approaches.
 ### [⚠️ Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md)
 Common mistakes and hard-won insights.
 
-### [🏗️ Software Architecture & Development](07-software-architecture-and-development.md)
-LLM applications in software architecture and development contexts.
+### [🎯 Use Cases in Software Architecture & Development](07-use-cases-software-architecture-development.md)
+Real-world applications in software engineering contexts.
 
 ### [📊 Quality Assessment](08-quality-assessment.md)
 Methods for evaluating and improving LLM outputs.
@@ -37,7 +37,7 @@ Particularly insightful, surprising, or educational interactions.
 
 **New to LLMs?** Start with [What Works Well](01-what-works-well.md) and [Tips & Tricks](04-tips-and-tricks.md).
 
-**Software Architect/Developer?** Check out [Software Architecture & Development](07-software-architecture-and-development.md) and [Workflows](05-workflows.md).
+**Software Architect/Developer?** Check out [Use Cases in Software Architecture & Development](07-use-cases-software-architecture-development.md) and [Workflows](05-workflows.md).
 
 **Experienced user?** Check out [Interesting Sessions](10-interesting-sessions.md) for real-world examples.
 
