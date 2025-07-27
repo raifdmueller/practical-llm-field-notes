@@ -40,6 +40,55 @@
 - "Add caching layer to existing API endpoints"
 - "Migrate deprecated library usage across the codebase"
 
+## Advanced AI Agent Workflow Patterns
+
+*Source: [Context Engineering for AI Agents - Manus](https://manus.im/de/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)*
+
+### Filesystem as Context Pattern
+**Approach:** Use the filesystem as unlimited, persistent context storage
+
+**Problem:** Traditional context windows are limited and expensive for long-running agents
+
+**Implementation:**
+- **External memory:** Agent writes/reads files as structured memory
+- **Recoverable compression:** Remove content but keep URLs/file paths for retrieval
+- **Persistent state:** Context survives beyond individual sessions
+
+**Benefits:**
+- Unlimited context size
+- Natural persistence across sessions
+- Agent-controlled information retrieval
+- Cost-effective for long workflows
+
+**Use cases:**
+- Long-running development tasks
+- Document analysis workflows
+- Multi-session project work
+
+### Attention Manipulation Through Repetition
+**Approach:** Guide agent focus by strategic information placement
+
+**Pattern:** Create and continuously update todo.md files during complex tasks
+- Agent writes task lists at context end
+- Updates and checks off completed items
+- Repeats goals to maintain focus
+
+**Why it works:**
+- Brings global plans into current attention span
+- Avoids "lost-in-the-middle" problems
+- Reduces goal drift in long workflows
+- Uses natural language for self-directed focus
+
+**Implementation:**
+```markdown
+# Current Task: API Implementation
+- [x] Design authentication endpoints
+- [x] Implement user registration
+- [ ] Add password hashing
+- [ ] Create login session handling
+- [ ] Write integration tests
+```
+
 ## Documentation Integration Patterns
 
 ### Living Documentation Pattern
