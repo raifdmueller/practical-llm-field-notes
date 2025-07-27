@@ -4,45 +4,45 @@ A structured collection of practical experiences with Large Language Models and 
 
 ## 🎯 Field Notes Sections
 
-### [📈 What Works Well](what-works-well.md)
+### [📈 What Works Well](01-what-works-well.md)
 Success stories and proven practices where LLMs consistently deliver value.
 
-### [⏳ What Doesn't Work Yet](what-doesnt-work-yet.md)
+### [⏳ What Doesn't Work Yet](02-what-doesnt-work-yet.md)
 Current limitations that might improve with future developments.
 
-### [❌ What Doesn't Work](what-doesnt-work.md)
+### [❌ What Doesn't Work](03-what-doesnt-work.md)
 Fundamental limitations to be aware of and work around.
 
-### [💡 Tips & Tricks](tips-and-tricks.md)
+### [💡 Tips & Tricks](04-tips-and-tricks.md)
 Practical techniques for maximizing LLM effectiveness.
 
-### [🔧 Tooling & Workflows](tooling-and-workflows.md)
+### [🔧 Tooling & Workflows](05-tooling-and-workflows.md)
 Tools and processes that enhance LLM integration.
 
-### [⚠️ Pitfalls & Lessons Learned](pitfalls-and-lessons-learned.md)
+### [⚠️ Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md)
 Common mistakes and hard-won insights.
 
-### [🎯 Use Cases & Domains](use-cases-and-domains.md)
+### [🎯 Use Cases & Domains](07-use-cases-and-domains.md)
 Real-world applications across different industries and contexts.
 
-### [📊 Quality Assessment](quality-assessment.md)
+### [📊 Quality Assessment](08-quality-assessment.md)
 Methods for evaluating and improving LLM outputs.
 
-### [📈 Development & Trends](development-and-trends.md)
+### [📈 Development & Trends](09-development-and-trends.md)
 Evolution of capabilities and emerging patterns.
 
-### [🌟 Interesting Sessions](interesting-sessions.md)
+### [🌟 Interesting Sessions](10-interesting-sessions.md)
 Particularly insightful, surprising, or educational interactions.
 
 ---
 
 ## 🚀 Quick Start
 
-**New to LLMs?** Start with [What Works Well](what-works-well.md) and [Tips & Tricks](tips-and-tricks.md).
+**New to LLMs?** Start with [What Works Well](01-what-works-well.md) and [Tips & Tricks](04-tips-and-tricks.md).
 
-**Experienced user?** Check out [Interesting Sessions](interesting-sessions.md) and [Development & Trends](development-and-trends.md).
+**Experienced user?** Check out [Interesting Sessions](10-interesting-sessions.md) and [Development & Trends](09-development-and-trends.md).
 
-**Having problems?** Look at [Pitfalls & Lessons Learned](pitfalls-and-lessons-learned.md) and [What Doesn't Work](what-doesnt-work.md).
+**Having problems?** Look at [Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md) and [What Doesn't Work](03-what-doesnt-work.md).
 
 ---
 
