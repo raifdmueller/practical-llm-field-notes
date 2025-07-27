@@ -63,6 +63,52 @@ Try: "Let's build authentication step by step:
 - Save working versions before major changes
 - Use "What would you change if..." for alternatives
 
+## AI Agent Performance Optimization
+
+### KV-Cache Optimization for Production Agents
+*Source: [Context Engineering for AI Agents - Manus](https://manus.im/de/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)*
+
+**Key insight:** KV-cache hit rate is the most critical metric for production AI agents, affecting both latency and costs.
+
+**Cost impact:** Cached tokens cost 10x less than non-cached (e.g., Claude Sonnet: $0.30/MTok cached vs $3.00/MTok non-cached)
+
+**Best practices:**
+1. **Keep prompt prefix stable** - Even one token difference can invalidate the entire cache
+   ```
+   BAD: Including timestamps at start of system prompt
+   GOOD: Stable system prompt, append timestamps at end if needed
+   ```
+
+2. **Make context append-only** - Never modify previous actions or observations
+   ```
+   BAD: Updating previous step results in-place
+   GOOD: Always append new information to context
+   ```
+
+3. **Ensure deterministic serialization** - Many JSON libraries don't guarantee key order
+   ```python
+   # Good: Stable serialization
+   json.dumps(data, sort_keys=True)
+   ```
+
+4. **Mark cache breakpoints explicitly** when using self-hosted models with frameworks like vLLM
+
+### Tool Management for Agents
+
+**Problem:** Complex agents with many tools become "dumber" due to action space explosion
+
+**Solution:** Mask tools instead of removing them
+- Maintains stable KV-cache (tool definitions stay in context)
+- Prevents confusion from missing tool references
+- Use prefix-based tool organization (e.g., `browser_`, `shell_`, `file_`)
+
+**Implementation example:**
+```
+Auto mode: <|im_start|>assistant
+Required mode: <|im_start|>assistant<tool_call>
+Specific mode: <|im_start|>assistant<tool_call>{"name": "browser_
+```
+
 ## Technical Considerations
 
 ### Specify Your Stack (Mind the Knowledge Cutoff)
