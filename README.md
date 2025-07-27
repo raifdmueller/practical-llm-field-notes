@@ -45,15 +45,29 @@ Particularly insightful, surprising, or educational interactions.
 
 ---
 
+## 💬 Community
+
+**Join the conversation!** Share experiences, ask questions, and connect with other practitioners:
+
+- **💡 [Ideas](../../discussions/categories/ideas)** - Brainstorm improvements and new content
+- **❓ [Q&A](../../discussions/categories/q-a)** - Ask questions about LLM experiences  
+- **🎯 [Show and Tell](../../discussions/categories/show-and-tell)** - Share your discoveries
+- **🗣️ [General](../../discussions/categories/general)** - Open discussions about LLMs
+
+**[Browse All Discussions →](../../discussions)**
+
+---
+
 ## 🤝 Contributing
 
 This is a community-driven collection! Your real-world experiences make this resource valuable.
 
 **How to contribute:**
-1. Read our [Contributing Guidelines](CONTRIBUTING.md)
-2. Choose the appropriate section for your experience
-3. Follow the format: Context → Experience → Learnings
-4. Submit a pull request
+1. **Join [Discussions](../../discussions)** for questions and ideas
+2. Read our [Contributing Guidelines](CONTRIBUTING.md)
+3. Choose the appropriate section for your experience
+4. Follow the format: Context → Experience → Learnings
+5. Submit a pull request
 
 **What we're looking for:**
 - Specific, actionable examples
