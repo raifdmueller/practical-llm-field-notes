@@ -15,6 +15,30 @@
 
 **Learnings:** Break complex problems into smaller, manageable chunks with clear intermediate steps.
 
+## Documentation Generation (Architectural)
+**Context:** Creating comprehensive system documentation
+
+**Experience:** Limited by:
+- Only sees code snippets, not overall system architecture
+- Cannot explain "why" decisions were made, only "what" code does
+- Generated documentation becomes outdated as code evolves
+- Missing business context and architectural rationale
+- Cannot understand cross-system dependencies and interactions
+
+**Learnings:** Use LLMs for ad-hoc code explanations instead of generating static documentation. Focus on explaining specific code sections when needed rather than creating comprehensive docs that will age poorly.
+
+## Complex Code Analysis & Review
+**Context:** Advanced code review requiring deep understanding
+
+**Experience:** Struggles with:
+- Subtle race conditions and concurrency issues
+- Complex business logic validation
+- Performance implications of architectural decisions
+- Integration patterns across multiple systems
+- Domain-specific security considerations beyond common patterns
+
+**Learnings:** Use LLMs for surface-level review and obvious issues, but rely on human experts for complex architectural and business logic problems.
+
 ## Real-Time Data Integration
 **Context:** Working with live, changing data
 
