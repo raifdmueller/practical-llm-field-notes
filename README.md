@@ -28,9 +28,6 @@ Real-world applications across different industries and contexts.
 ### [📊 Quality Assessment](08-quality-assessment.md)
 Methods for evaluating and improving LLM outputs.
 
-### [📈 Development & Trends](09-development-and-trends.md)
-Evolution of capabilities and emerging patterns.
-
 ### [🌟 Interesting Sessions](10-interesting-sessions.md)
 Particularly insightful, surprising, or educational interactions.
 
@@ -40,7 +37,7 @@ Particularly insightful, surprising, or educational interactions.
 
 **New to LLMs?** Start with [What Works Well](01-what-works-well.md) and [Tips & Tricks](04-tips-and-tricks.md).
 
-**Experienced user?** Check out [Interesting Sessions](10-interesting-sessions.md) and [Development & Trends](09-development-and-trends.md).
+**Experienced user?** Check out [Interesting Sessions](10-interesting-sessions.md) for real-world examples.
 
 **Having problems?** Look at [Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md) and [What Doesn't Work](03-what-doesnt-work.md).
 
