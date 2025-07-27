@@ -4,16 +4,21 @@
 > 
 > **📝 Content:** Limitations that are technology-related but potentially solvable. Distinguish between "not yet" and "fundamentally not possible."
 
+> **⚠️ Note:** With MCP and tool integration, many 2023-2024 limitations are now solved. This section focuses on remaining challenges that better models or tools might address.
+
+---
+
 ## Complex Multi-Step Reasoning
 **Context:** Planning complex projects or architectures
 
 **Experience:** Struggles with:
 - Long-term project planning with multiple dependencies
 - Complex business logic that requires deep domain understanding
-- Multi-step mathematical proofs or complex calculations
-- Strategic decision-making requiring extensive context
+- Multi-step mathematical proofs requiring sustained reasoning
+- Strategic decision-making requiring extensive context synthesis
+- Maintaining coherence across very long reasoning chains
 
-**Learnings:** Break complex problems into smaller, manageable chunks with clear intermediate steps.
+**Learnings:** Break complex problems into smaller, manageable chunks with clear intermediate steps. Use iterative refinement rather than expecting complete solutions upfront.
 
 ## Documentation Generation (Architectural)
 **Context:** Creating comprehensive system documentation
@@ -39,35 +44,75 @@
 
 **Learnings:** Use LLMs for surface-level review and obvious issues, but rely on human experts for complex architectural and business logic problems.
 
-## Real-Time Data Integration
-**Context:** Working with live, changing data
-
-**Experience:** Limited by:
-- No access to real-time APIs or databases
-- Cannot verify current information accuracy
-- Struggles with time-sensitive decision making
-- Cannot maintain state between conversations
-
-**Learnings:** Combine LLM capabilities with real-time data tools and APIs.
-
 ## Deep Business Context Understanding
 **Context:** Enterprise-specific solutions
 
 **Experience:** Challenges include:
-- Understanding complex organizational structures
+- Understanding complex organizational structures and politics
 - Navigating company-specific processes and constraints
-- Interpreting business requirements without extensive context
+- Interpreting implicit business requirements
 - Making decisions that require insider knowledge
+- Understanding unstated cultural and contextual factors
 
-**Learnings:** Provide extensive context documentation and use iterative refinement.
+**Learnings:** Provide extensive context documentation and use iterative refinement. Consider LLMs as external consultants who need thorough briefing.
 
-## File System & Environment Interaction
-**Context:** Direct system administration and file manipulation
+## Long-term Learning & Adaptation
+**Context:** Continuous improvement over time
 
-**Experience:** Cannot reliably:
-- Perform complex file operations across directories
-- Understand system state and environment variables
-- Execute long-running scripts or processes
-- Manage dependencies and environment setup
+**Experience:** Cannot:
+- Learn from previous conversations or interactions
+- Adapt behavior based on user preferences over time
+- Build up domain expertise through repeated exposure
+- Remember lessons learned from past mistakes
+- Develop personalized approaches for specific users or teams
 
-**Learnings:** Use LLMs for planning and code generation, then execute manually or through proper tooling.
+**Learnings:** Design workflows that capture and reuse important learnings explicitly. Use external systems to maintain context and preferences.
+
+## Autonomous Agent Reliability
+**Context:** Long-running autonomous workflows
+
+**Experience:** Challenges with:
+- Maintaining focus and direction over extended autonomous work
+- Recovering gracefully from unexpected errors or edge cases
+- Making reliable decisions without human oversight
+- Coordinating complex multi-agent workflows
+- Ensuring consistent quality over long autonomous sessions
+
+**Learnings:** Use human-in-the-loop approaches for critical decisions. Design autonomous workflows with frequent checkpoints and validation steps.
+
+## Cross-System Enterprise Integration
+**Context:** Complex enterprise environments
+
+**Experience:** Struggles with:
+- Understanding intricate system interdependencies
+- Navigating complex authentication and authorization schemes
+- Handling enterprise-specific protocols and APIs
+- Managing transaction consistency across multiple systems
+- Understanding implicit system behaviors and side effects
+
+**Learnings:** Start with simpler integrations and build complexity gradually. Maintain clear documentation of system interactions and dependencies.
+
+---
+
+## ✅ Now Solved with MCP/Tools (Moved from Limitations)
+
+These were significant limitations but are now addressable:
+
+### **Real-Time Data Integration** → MCP + web search/APIs
+### **File System & Environment Interaction** → MCP + file system tools
+### **Basic Data Analysis** → MCP + analysis tools
+### **Simple Calculations** → MCP + code interpreters
+
+---
+
+## 🚀 Report New "Doesn't Work Yet" Areas
+
+**Found limitations that might be solvable with better models or tools?**
+
+We want to know about:
+- **Reasoning limitations** that persist despite tools
+- **Integration challenges** in complex environments  
+- **Scalability issues** with current approaches
+- **Reliability problems** in autonomous scenarios
+
+**[Contribute Your Observations](CONTRIBUTING.md)**
