@@ -6,6 +6,83 @@
 
 ---
 
+## 🔧 Helper Scripts & Development Automation
+
+### Build and Deployment Scripts
+**Context:** Automating repetitive development and deployment tasks
+
+**Successful applications:**
+- **Package.json updaters** for monorepo maintenance
+- **Docker configuration generators** for different environments
+- **CI/CD pipeline scripts** for custom deployment scenarios
+- **Database migration utilities** for schema changes
+- **Log analysis scripts** for troubleshooting and monitoring
+- **Git workflow automation** (branch cleanup, release tagging)
+
+**Example use case:**
+```
+Problem: Update all microservices to use new logging library
+LLM Solution: Python script that:
+- Scans all package.json files in subdirectories
+- Updates specific dependency versions
+- Handles different package managers (npm, yarn, pnpm)
+- Creates summary report of changes made
+Time saved: 2-3 hours → 15 minutes
+```
+
+**Success factors:**
+- Clear scope definition (specific files, exact changes needed)
+- Sample data provided (actual package.json contents)
+- Error handling requirements specified upfront
+- Testing strategy defined before implementation
+
+### Configuration Management
+**Context:** Template-based generation of configuration files and settings
+
+**Effective patterns:**
+- **Environment-specific configs** using templates with variable substitution
+- **Kubernetes manifests** generated from application specifications
+- **API documentation** created from code annotations and examples
+- **Database configuration** for different deployment targets
+- **Monitoring and alerting rules** based on service characteristics
+
+**Template-driven config example:**
+```
+Template: docker-compose.yml template with placeholders
+Input: Service specifications (ports, dependencies, resources)
+Output: Complete docker-compose files for dev/staging/prod
+Benefit: Consistent configuration across environments
+Quality: Eliminates manual configuration errors
+```
+
+**ROI metrics:**
+- Configuration consistency: 95%+ across environments
+- Setup time reduction: 70% for new services
+- Configuration errors: Reduced by 80%
+
+### Development Tools & Utilities
+**Context:** Custom utilities for specific project needs and development workflows
+
+**High-value applications:**
+- **Code generation utilities** for repetitive patterns (API endpoints, CRUD operations)
+- **Test data generators** with realistic, domain-specific data
+- **Code migration scripts** for framework upgrades or refactoring
+- **Documentation generators** from code comments and specifications
+- **Development environment setup** scripts for team onboarding
+
+**Custom tooling example:**
+```
+Use case: Generate REST API endpoints from OpenAPI spec
+Implementation: Python script that:
+- Parses OpenAPI/Swagger specifications
+- Generates controller stubs with proper annotations
+- Creates corresponding test files with sample data
+- Generates integration test scenarios
+Team impact: New API development 60% faster
+```
+
+---
+
 ## Real Architecture Success Stories
 
 ### Legacy System Documentation with Claude
