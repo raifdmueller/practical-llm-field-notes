@@ -166,8 +166,6 @@ const promptTemplates = {
 
 **Results:** 40% reduction in token usage with maintained code quality
 
-## Production-Tested Workflow Patterns
-
 ### The "Context Handoff" Pattern
 **Problem:** Long development sessions lose context when switching between tools  
 **Solution:** Systematic context preservation across LLM interactions  
