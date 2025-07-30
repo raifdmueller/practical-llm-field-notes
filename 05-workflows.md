@@ -189,6 +189,11 @@ const reviewChecklist = {
 - Include performance and accessibility requirements
 - Ask for test cases with implementations
 - Request error handling for all external API calls
+- Use domain-specific trigger terms (arc42, DDD, TDD) to activate pre-trained knowledge
+- Specify deviations from standard patterns rather than explaining entire concepts
+- Combine multiple frameworks (e.g., "Apply DDD within Clean Architecture using arc42 docs")
+
+**See also:** [Domain-Specific Trigger Terms](04-tips-and-tricks.md#domain-specific-trigger-terms) for detailed implementation guidelines.
 
 ## Quality Gates
 - All LLM-generated code requires peer review

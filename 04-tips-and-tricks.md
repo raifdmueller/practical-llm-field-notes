@@ -137,6 +137,88 @@ Now implement this registration form.
 **Why it works:** Reduces back-and-forth and ensures requirements are met  
 **Learnings:** 70% reduction in rework due to mismatched requirements
 
+
+## Domain-Specific Trigger Terms
+
+### Leverage Pre-Trained Knowledge Patterns
+**Context:** LLMs recognize established methodologies and can activate comprehensive knowledge without lengthy explanations  
+**Technique:** Use domain-specific terms as "triggers" to activate relevant knowledge clusters in the LLM's latent space  
+
+**Core Principle:** Instead of explaining concepts from scratch, reference established frameworks and specify only deviations.
+
+### Effective Trigger Categories
+
+**Software Architecture & Requirements:**
+- `arc42` → Activates 12-chapter architecture template with quality attributes
+- `EARS` (Easy Approach to Requirements Syntax) → Triggers "When [trigger] [system] shall [behavior]" patterns  
+- `C4 Model` → Activates Context, Container, Component, Code diagramming
+- `ADR` (Architecture Decision Records) → Triggers Nygard's decision documentation template
+
+**Testing Methodologies:**
+- `London School TDD` → Activates mock-heavy, interaction-based testing
+- `Chicago School TDD` → Triggers state-based testing with real objects
+- `BDD` (Behavior Driven Development) → Activates Given-When-Then scenario patterns
+- `Property-Based Testing` → Triggers QuickCheck-style random input generation
+
+**Development Practices:**
+- `Domain-Driven Design (DDD)` → Activates bounded contexts, aggregates, entities
+- `SOLID Principles` → Triggers Single Responsibility, Open/Closed, Liskov Substitution patterns
+- `Clean Architecture` → Activates Uncle Bob's layered architecture with dependency inversion
+- `Event Sourcing` → Triggers event-driven state management patterns
+
+### Implementation Patterns
+
+**Pattern 1: Direct Activation**
+```
+❌ Verbose: "I need help with documenting software architecture. Please create a structure that includes system context, building blocks, runtime scenarios..."
+
+✅ Trigger: "Generate an arc42 architecture document for a microservices e-commerce platform. Focus on chapters 1-3 and 8."
+```
+
+**Pattern 2: Deviation Specification**  
+```
+❌ Verbose: "I want to do test-driven development where I write tests first, but I prefer using real objects instead of mocks..."
+
+✅ Trigger: "Apply Chicago School TDD for this payment service. Deviate by including integration tests in the red-green-refactor cycle."
+```
+
+**Pattern 3: Framework Combination**
+```
+✅ Combined: "Apply DDD bounded contexts within Clean Architecture. Document decisions using ADRs following arc42 template."
+```
+
+### Guidelines for Effective Usage
+
+**✅ Use Trigger Terms When:**
+- Established methodologies with clear, consistent definitions
+- Industry-standard frameworks extensively documented  
+- Well-known acronyms with consistent interpretations
+- Concepts likely included in LLM training data
+
+**⚠️ Provide Context Instead When:**
+- Company-specific internal frameworks
+- Recently developed methodologies (post-training cutoff)
+- Ambiguous terms with multiple interpretations
+- Regional variations of established concepts
+
+### Measuring Effectiveness
+
+**Token Efficiency Gains:**
+- 50-80% reduction in prompt length for established concepts
+- More context window space for specific requirements
+- Lower API costs through reduced token consumption
+
+**Quality Improvements:**
+- Deeper, more comprehensive knowledge activation
+- Better alignment with established best practices
+- More consistent responses across similar prompts
+
+**Quick Test:** Compare LLM responses using trigger terms vs. detailed explanations. Trigger terms should produce more focused, comprehensive, and contextually appropriate responses.
+
+**Cross-reference:** See [Workflow Integration](05-workflows.md#prompting-standards) for team-level implementation patterns.
+
+---
+
 ## Context Management
 
 ### Structured Request Template
