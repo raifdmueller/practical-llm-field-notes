@@ -43,6 +43,126 @@ Try: "Let's build authentication step by step:
 3. Finally, implement login sessions"
 ```
 
+## Helper Script & Automation Techniques
+
+### Effective Helper Script Prompting
+**Core principle:** Provide concrete examples of input and expected output
+
+```markdown
+TEMPLATE:
+"Create a [language] script that [specific task].
+
+Input example:
+[Paste actual sample data]
+
+Expected output:
+[Show exactly what you want to see]
+
+Requirements:
+- [Specific constraint 1]
+- [Specific constraint 2]
+- Handle edge case: [specific scenario]"
+```
+
+**Real example:**
+```
+Create a Python script that processes translation YAML files.
+
+Input example (translations.yml):
+```yaml
+en:
+  welcome: "Welcome"
+  goodbye: ""
+de:
+  welcome: "Willkommen"
+  goodbye: ""
+```
+
+Expected output:
+- Identify missing translations (where value is empty)
+- Generate list of keys needing translation
+- Preserve file structure and comments
+
+Requirements:
+- Use PyYAML library
+- Handle nested keys
+- Create backup before modification
+```
+
+**Success factors:**
+- Always include real sample data (anonymized if needed)
+- Show expected output format explicitly
+- List edge cases and error conditions
+- Specify libraries or constraints upfront
+
+### Template Design Patterns
+**Effective template structure:** 3-7 clear sections with specific expectations
+
+```markdown
+GOOD TEMPLATE STRUCTURE:
+## [Section Name] (Required/Optional)
+**Purpose:** [What this section achieves]
+**Format:** [How to structure content]
+**Example:** [Concrete example]
+
+---
+
+EXAMPLE: ADR Template
+## Context (Required)
+**Purpose:** Explain the problem and why a decision is needed
+**Format:** 2-3 paragraphs describing current situation
+**Example:** "We need to choose a database for our new microservice..."
+
+## Decision (Required)  
+**Purpose:** State the chosen solution clearly
+**Format:** One clear sentence + brief justification
+**Example:** "We will use PostgreSQL because..."
+```
+
+**Template design principles:**
+- **Clear section purposes** - each section has a specific role
+- **Format guidance** - tell the LLM how to structure content
+- **Concrete examples** - show what good content looks like
+- **Required vs Optional** - clarity on what must be included
+- **Length guidance** - prevent over/under-detailed sections
+
+### Example Selection Strategies
+**Choose examples that maximize learning transfer**
+
+**High-impact example characteristics:**
+- **Complete and working** - no pseudo-code or incomplete snippets
+- **Edge case handling** - shows error conditions and validation
+- **Well-commented** - explains the reasoning behind decisions
+- **Similar domain** - matches the target use case closely
+- **Recent and relevant** - uses current libraries and patterns
+
+**Example selection template:**
+```
+Here's a working example of [similar task]:
+
+```[language]
+[Complete, working code example]
+```
+
+Key aspects to adapt for your use case:
+- [Aspect 1]: [How to modify]
+- [Aspect 2]: [How to modify]
+- [Aspect 3]: [How to modify]
+
+Now create a similar solution for [your specific task].
+```
+
+**Multi-example strategy for complex tasks:**
+```
+I'll show you 3 examples of [pattern], then ask you to create one for [specific case]:
+
+Example 1 (Simple case): [code]
+Example 2 (With error handling): [code]  
+Example 3 (Production ready): [code]
+
+Now create a [pattern] for [your requirements], combining the best aspects of these examples.
+```
+
 ## Context Management
 
 ### Structured Request Template
