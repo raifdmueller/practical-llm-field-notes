@@ -1,6 +1,18 @@
-# Practical LLM Field Notes
+# Practical LLM Field Notes for Software Engineering & Architecture
 
-A structured collection of practical experiences with Large Language Models and Generative AI - from the trenches of real-world development.
+A structured collection of practical experiences with Large Language Models in **software development, architecture, and engineering contexts** - from the trenches of real-world development teams.
+
+## 🎯 Target Audience
+
+This repository is specifically focused on **software engineering and architecture applications** of LLMs:
+
+- **Software Developers & Engineers** - Code generation, debugging, testing, refactoring
+- **Software Architects & System Designers** - Architecture decisions, system design, technical documentation  
+- **Development Team Leads** - Code review automation, team productivity, workflow optimization
+- **Engineering Managers** - Development process improvement, technical decision support
+- **DevOps Engineers** - Infrastructure as Code, CI/CD automation, system monitoring
+
+> **Note:** While LLMs have broad applications across many domains, this collection focuses exclusively on their use in software engineering and architecture contexts. For general business applications, marketing, or other domains, please refer to other specialized resources.
 
 ## 🎯 Field Notes Sections
 
@@ -39,7 +51,7 @@ Particularly insightful, surprising, or educational interactions.
 
 **New to LLMs?** Start with [What Works Well](01-what-works-well.md) and [Tips & Tricks](04-tips-and-tricks.md).
 
-**Software Architect/Developer?** Check out [Use Cases in Software Architecture & Development](07-use-cases-software-architecture-development.md) and [Workflows](05-workflows.md).
+**Software Architect/Developer?** Check out [Use Cases in Software Architecture & Development](07-use-cases-software-architecture-development.md) and [Workflows](05-workflows.md). *(This is our core focus!)*
 
 **Experienced user?** Check out [Interesting Sessions](10-interesting-sessions.md) for real-world examples.
 
@@ -87,4 +99,4 @@ This repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 I
 
 ## 🏷️ Tags
 
-`#LLM` `#GenAI` `#ChatGPT` `#Claude` `#Gemini` `#Experiences` `#BestPractices` `#LessonsLearned` `#SoftwareDevelopment` `#AI` `#MachineLearning` `#FieldNotes` `#PracticalAI`
+`#SoftwareEngineering` `#SoftwareArchitecture` `#LLM` `#CodeGeneration` `#APIs` `#Testing` `#Refactoring` `#DevOps` `#TechnicalDocumentation` `#CodeReview` `#ArchitectureDecisions` `#SoftwareDevelopment`
