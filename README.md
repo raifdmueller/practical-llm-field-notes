@@ -17,12 +17,14 @@ Fundamental limitations to be aware of and work around.
 Practical techniques for maximizing LLM effectiveness.
 
 ### [🔧 Workflows](05-workflows.md)
+Structured workflow patterns: [Basic](05a-workflows-basic.md) | [Production](05b-workflows-production.md) | [Advanced](05c-workflows-advanced.md)
 Proven workflow patterns and integration approaches.
 
 ### [⚠️ Pitfalls & Lessons Learned](06-pitfalls-and-lessons-learned.md)
 Common mistakes and hard-won insights.
 
 ### [🎯 Use Cases in Software Architecture & Development](07-use-cases-software-architecture-development.md)
+Real-world applications: [Development](07a-development-use-cases.md) | [Architecture](07b-architecture-use-cases.md) | [Enterprise](07c-enterprise-use-cases.md)
 Real-world applications in software engineering contexts.
 
 ### [📊 Quality Assessment](08-quality-assessment.md)
