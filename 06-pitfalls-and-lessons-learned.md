@@ -1,9 +1,4 @@
 # Pitfalls & Lessons Learned
-
-> **💡 Motivation:** Document common mistakes and misconceptions to help others avoid similar problems.
-> 
-> **📝 Content:** Typical beginner mistakes, subtle issues, unexpected behaviors.
-
 ---
 
 ## Core Development Pitfalls

@@ -1,9 +1,4 @@
 # What Doesn't Work Yet
-
-> **💡 Motivation:** Set realistic expectations and identify areas that might improve with future developments.
-> 
-> **📝 Content:** Limitations that are technology-related but potentially solvable. Distinguish between "not yet" and "fundamentally not possible."
-
 > **⚠️ Note:** With MCP and tool integration, many 2023-2024 limitations are now solved. This section focuses on remaining challenges that better models or tools might address.
 
 ---

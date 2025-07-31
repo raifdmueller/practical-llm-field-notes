@@ -1,5 +1,10 @@
 # What Works Well
 
+> **💡 Motivation:** Document success stories and proven practices to show where LLMs provide real value.
+> 
+> **📝 Content:** Concrete use cases that reliably deliver good results. Focus on reproducible successes.
+
+---
 
 ## Small Helper Scripts & Utilities
 **Context:** Quick automation and utility script generation for specific, well-defined tasks
@@ -21,7 +26,7 @@
 - **Best for:** Single-purpose scripts under 100 lines with clear requirements
 - **Avoid:** Complex multi-step workflows or scripts requiring deep domain knowledge
 
-The tips section covers effective prompting patterns, and our workflows documentation shows how this fits into rapid prototyping cycles.
+**Cross-reference:** See [Effective Helper Script Prompting](04-tips-and-tricks.md#effective-helper-script-prompting) and [Rapid Prototyping Workflow](05-workflows.md#rapid-prototyping-with-helper-scripts)
 
 ## Template-Driven Development
 **Context:** Using structured templates to guide consistent LLM output across similar tasks
@@ -43,7 +48,7 @@ The tips section covers effective prompting patterns, and our workflows document
 - **Templates work best when:** They have 3-7 clear sections with specific content expectations
 - **Quality improves with:** Sample templates filled out correctly as references
 
-Template design patterns in our tips section provide more structured approaches, especially for team-wide consistency.
+**Cross-reference:** See [Template Design Patterns](04-tips-and-tricks.md#template-design-patterns) and [Template-First Development](05-workflows.md#template-first-development)
 
 ## Example-Based Code Generation
 **Context:** Providing concrete examples to guide implementation and pattern replication
@@ -65,7 +70,7 @@ Template design patterns in our tips section provide more structured approaches,
 - **Most effective:** When examples include edge cases and error handling
 - **Quality key:** Examples should be complete, working, and well-commented
 
-Our example selection strategies help choose the right reference code, and iteration workflows show how to refine results systematically.
+**Cross-reference:** See [Example Selection Strategies](04-tips-and-tricks.md#example-selection-strategies) and [Example-Driven Iteration](05-workflows.md#example-driven-iteration)
 
 ---
 

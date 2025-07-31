@@ -1,14 +1,7 @@
 # Workflows - Basic Patterns
-
-> **💡 Motivation:** Document proven workflow patterns and integration approaches that enhance LLM effectiveness.
-> 
-> **📝 Content:** Workflow patterns, integration strategies, automation approaches - focused on HOW rather than specific tool names.
-
 ---
 
 **📍 Navigation:** [Basic Patterns](05a-workflows-basic.md) | [Production Patterns](05b-workflows-production.md) | [Advanced Integration](05c-workflows-advanced.md)
-
-
 ## Helper Script & Automation Workflows
 
 ### Rapid Prototyping with Helper Scripts

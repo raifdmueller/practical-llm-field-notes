@@ -1,14 +1,7 @@
 # Use Cases - Software Architecture
-
-> **💡 Motivation:** Document concrete LLM applications specifically in software architecture and development contexts.
-> 
-> **📝 Content:** Real-world use cases, success and failure stories, ROI assessments in software engineering.
-
 ---
 
 **📍 Navigation:** [Development](07a-development-use-cases.md) | [Architecture](07b-architecture-use-cases.md) | [Enterprise & Performance](07c-enterprise-use-cases.md)
-
-
 ## Real Architecture Success Stories
 
 ### Legacy System Documentation with Claude

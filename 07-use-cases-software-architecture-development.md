@@ -1,9 +1,4 @@
 # Use Cases: Software Architecture & Development
-
-> **💡 Motivation:** Real-world software engineering use cases with measurable results and lessons learned.
-> 
-> **📝 Content:** Specific software engineering applications - from helper scripts to enterprise architecture.
-
 This section has been organized into three specialized areas:
 
 ## 💻 **[Software Development](07a-development-use-cases.md)**

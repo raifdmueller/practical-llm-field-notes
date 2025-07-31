@@ -1,9 +1,4 @@
 # Workflows
-
-> **💡 Motivation:** Document repeatable patterns and proven integration strategies for LLM usage.
-> 
-> **📝 Content:** Workflow patterns, integration strategies, automation approaches - focused on HOW rather than specific tool names.
-
 This section has been split into three focused parts for better navigation:
 
 ## 📚 **[Basic Patterns](05a-workflows-basic.md)**

@@ -1,9 +1,4 @@
 # What Doesn't Work
-
-> **💡 Motivation:** Understand fundamental limitations of LLMs and avoid unrealistic expectations.
-> 
-> **📝 Content:** Core limitations that persist even with tools and integrations. Areas where traditional approaches remain superior.
-
 > **⚠️ Note:** Many limitations from 2023-2024 are now solvable with MCP (Model Context Protocol) and tool integration. This section focuses on remaining fundamental constraints.
 
 ---

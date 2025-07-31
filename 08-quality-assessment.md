@@ -1,9 +1,4 @@
 # Quality Assessment
-
-> **💡 Motivation:** Develop methods to objectively evaluate and improve LLM output quality.
-> 
-> **📝 Content:** Evaluation criteria, validation strategies, quality assurance, metrics.
-
 ---
 
 ## Practical Evaluation Tools in Production

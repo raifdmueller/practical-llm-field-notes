@@ -1,9 +1,4 @@
 # Tips & Tricks
-
-> **💡 Motivation:** Collect practical techniques that increase effectiveness when working with LLMs.
-> 
-> **📝 Content:** Prompt engineering, workflow optimizations, hidden features, workarounds.
-
 ## Helper Script & Automation Techniques
 
 ### Effective Helper Script Prompting
@@ -258,8 +253,6 @@ Now implement this registration form.
 ```
 **Why it works:** Reduces back-and-forth and ensures requirements are met  
 **Learnings:** 70% reduction in rework due to mismatched requirements
-
-
 ## Domain-Specific Trigger Terms
 
 ### Leverage Pre-Trained Knowledge Patterns
@@ -337,7 +330,7 @@ Now implement this registration form.
 
 **Quick Test:** Compare LLM responses using trigger terms vs. detailed explanations. Trigger terms should produce more focused, comprehensive, and contextually appropriate responses.
 
-**Cross-reference:** See [Workflow Integration](05-workflows.md#prompting-standards) for team-level implementation patterns.
+Team workflow integration patterns help scale these approaches across larger development teams.
 
 ---
 
